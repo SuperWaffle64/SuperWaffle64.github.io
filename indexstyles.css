@@ -1,0 +1,82 @@
+.title {
+    font-family: Encode-Sans-Expanded;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+body {
+    background-image: url("tetrio-coverart-alt.png");
+  
+    min-height: 500px;
+    height: 50%;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.youtube {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    position:fixed;
+    left:37.5%;
+
+    transition-duration: 0.2s;
+}
+
+.youtube:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.discordbutton {
+    background-color: #5865F2;
+    border-radius: 8px;
+    color: white;
+    position: fixed;
+    left:46.5%;
+
+    transition-duration: 0.2s;
+}
+
+.discordbutton:hover {
+    background-color: white;
+    color: #5865F2;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.twitter {
+    background-color: #55acee;
+    border-radius: 8px;
+    color: white;
+    position: fixed;
+    left:55%;
+
+    transition-duration: 0.2s;
+}
+
+.twitter:hover {
+    background-color: white;
+    color: #55acee;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.discord {
+    position: fixed;
+    left: 5%;
+    top: 25%;
+}
+
+.tetrachannel {
+    margin-top: 700px;
+    margin-left: 20px;
+    float: left;
+}
