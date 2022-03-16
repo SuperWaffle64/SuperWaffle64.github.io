@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <HTML>
     <HEAD>
-        <link rel="stylesheet" type="text/css" href="indexstyles.css">
+        <link rel="stylesheet" type="text/css" href="mobilestyles.css">
         <link href='https://fonts.googleapis.com/css?family=Encode Sans Expanded' rel='stylesheet'>
         <link rel="icon" href="SW64_2.png">
 
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="SuperWaffle64's Website">
-        <meta property="og:description" content="Website SuperWaffle64 made bc boredom sucks.">
-        <meta property="og:image" content="SW64_2">
-
-        <meta name="keywords" content="Tetris Effect, Tetris, TETR.IO, SuperWaffle 64, SuperWaffle64, SuperWaffleYT">
+        <meta name="keywords" content="Tetris Effect, Tetris, SuperWaffle64, SuperWaffleYT">
         <meta name="description" content="SuperWaffle64's website. SuperWaffle64 is a Tetris YouTuber and sometimes codes things.">
         <meta name="author" content="SuperWaffle64">
-        
+
         <title>SuperWaffle64's Webpage</title>
-
-        <!-- Mobile Redirect -->
-
-        <script type="text/javascript">
-            if (screen.width <= 699) {
-                document.location = "mobile.html";
-            }
-        </script>
     </HEAD>
     <BODY>
         <h1 style="font-family:Encode Sans Expanded;" class="title">Welcome to SuperWaffle64's Webpage!</h1>
@@ -33,22 +20,9 @@
             <button class="twitter" onclick="window.location.href='https://twitter.com/SuperWaffle64';">Twitter</button>
         </div>
 
-        <iframe class="discord" src="https://ptb.discord.com/widget?id=886032570557534258&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
         <p style="font-family:Encode Sans Expanded;" class="text0">Hi! I'm SuperWaffle64. I make Tetris YouTube videos. Made this website because I was bored. Here are some of my social links. Feel free to check these out! I'll update this website if I feel like I should add something else.</p>
 
-        <a class="tetrachannel" href="https://ch.tetr.io/u/superwaffle64">
-            <img alt="Tetra Channel" src="tetrio-mono.svg"
-            width=90" height="90">
-         </a>
-
-         <a class="quarterzone" href="https://quarter.zone/users/xbl/CAD9FD8741EAEE1D7FD13291D350D2F0E21DABE6/">
-            <img alt="Quarter Zone" src="quarterzone.png"
-            width=90" height="90">
-         </a>
-
-         <!-- Latest video embed. Can do more than one video -->
-        <iframe class="latestVideoEmbed" vnum='0' cid="UCesPJJx3ikxrwxD522o7D3Q" width="800" height="440" frameborder="0" allowfullscreen></iframe>
+        <iframe class="latestVideoEmbed" vnum='0' cid="UCesPJJx3ikxrwxD522o7D3Q" width="610" height="340" frameborder="0" allowfullscreen></iframe>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
         var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
@@ -68,6 +42,13 @@
          loadVideo(iframes[i]);
         }
         </script> 
-    </BODY>
 
+    <a class="tetrachannel" href="https://ch.tetr.io/u/superwaffle64">
+        <img alt="Tetra Channel" src="tetrio-mono.svg" width=90" height="90">
+    </a>
+
+    <a class="quarterzone" href="https://quarter.zone/users/xbl/CAD9FD8741EAEE1D7FD13291D350D2F0E21DABE6/">
+        <img alt="Quarter Zone" src="quarterzone.png" width=90" height="90">
+    </a>
+    </BODY>
 </HTML>

@@ -5,14 +5,6 @@
     color: white;
 }
 
-.text0 {
-    color: white;
-    font-size: 27px;
-    margin-top: -500px;
-    margin-left: 470px;
-    margin-right: 20%
-}
-
 body {
     background-image: url("tetrio-coverart-alt.png");
   
@@ -22,17 +14,16 @@ body {
 
 button {
     border: none;
-    padding: 15px 32px;
+    padding: 32px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    /*font-weight: bold;*/
+    font-size: 20px;
     font-family: "Encode Sans Expanded";
 }
 
 .buttons {
     position: absolute;
-    left: 39%;
+    left: 8%;
 }
 
 .youtube {
@@ -41,6 +32,7 @@ button {
     color: white;
     margin-right: 10px;
     margin-top: 0px;
+    margin-left: 30px;
 
     transition-duration: 0.2s;
 }
@@ -55,7 +47,7 @@ button {
     background-color: #5865F2;
     border-radius: 8px;
     color: white;
-    margin-top: 0px;
+    margin-right: 0px;
 
     transition-duration: 0.2s;
 }
@@ -82,25 +74,23 @@ button {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
-.discord {
-    margin-left: 5%;
-    margin-top: 100px;
+.text0 {
+    color: white;
+    font-size: 27px;
+    margin-top: 140px;
+    margin-left: 10px;
 }
 
 .tetrachannel {
-    position: fixed;
-    top: 88%;
+    position: absolute;
     float: left;
-    margin-left: 5px;
+    margin-top: 8px;
+    margin-left: 300px;
 }
 
 .quarterzone {
-    position: fixed;
-    top: 88%;
+    position: absolute;
     float: left;
-    margin-left: 110px;
-}
-
-.latestVideoEmbed {
-    margin-left:510px
+    margin-top:10px;
+    margin-left: 200px;
 }
