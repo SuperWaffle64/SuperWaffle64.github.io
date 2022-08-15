@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("tetrio-coverart-alt.png");
+    background-image: url("background.png");
   
     min-height: 500px;
     height: 50%;
@@ -26,13 +26,21 @@ button {
     left: 8%;
 }
 
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .youtube {
     background-color: red;
     border-radius: 8px;
     color: white;
     margin-right: 10px;
     margin-top: 0px;
-    margin-left: 30px;
 
     transition-duration: 0.2s;
 }
@@ -83,14 +91,14 @@ button {
 
 .tetrachannel {
     position: absolute;
+    top: 88%;
     float: left;
-    margin-top: 8px;
-    margin-left: 300px;
+    margin-left: -600px;
 }
 
 .quarterzone {
     position: absolute;
+    top: 88%;
     float: left;
-    margin-top:10px;
-    margin-left: 200px;
+    margin-left: 10px;
 }

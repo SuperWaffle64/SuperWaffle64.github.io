@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url("tetrio-coverart-alt.png");
+    background-image: url("background.png");
   
     min-height: 500px;
     height: 50%;
@@ -34,6 +34,15 @@ button {
     position: absolute;
     left: 39%;
 }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 .youtube {
     background-color: red;
