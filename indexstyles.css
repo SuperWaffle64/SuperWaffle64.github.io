@@ -110,6 +110,13 @@ button {
     margin-left: 110px;
 }
 
+.sendou {
+    position: fixed;
+    top: 88%;
+    float: left;
+    margin-left: 205px;
+}
+
 .latestVideoEmbed {
     margin-left:510px
 }
