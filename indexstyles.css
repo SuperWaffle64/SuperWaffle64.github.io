@@ -96,6 +96,12 @@ button {
     margin-top: 100px;
 }
 
+.twitter-timeline {
+    text-align: right;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
 .tetrachannel {
     position: fixed;
     top: 88%;
