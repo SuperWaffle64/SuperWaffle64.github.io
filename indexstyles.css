@@ -8,8 +8,8 @@
 .text0 {
     color: white;
     font-size: 27px;
-    margin-top: -500px;
-    margin-left: 470px;
+    margin-top: 120px;
+    margin-left: 400px;
     margin-right: 20%
 }
 
@@ -48,7 +48,7 @@ button {
     background-color: red;
     border-radius: 8px;
     color: white;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 0px;
 
     transition-duration: 0.2s;
@@ -80,7 +80,7 @@ button {
     border-radius: 8px;
     color: white;
     margin: 10px;
-    margin-top: 0px;
+    margin-left: 90px;
 
     transition-duration: 0.2s;
 }
@@ -92,12 +92,6 @@ button {
 }
 
 .discord {
-    margin-left: 5%;
-    margin-top: 100px;
-}
-
-.twitter-timeline {
-    text-align: right;
     margin-left: 5%;
     margin-top: 100px;
 }
@@ -120,9 +114,10 @@ button {
     position: fixed;
     top: 88%;
     float: left;
-    margin-left: 205px;
+    margin-left: 110px;
 }
 
 .latestVideoEmbed {
+    margin-top: 20px;
     margin-left:510px
 }
