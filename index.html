@@ -1,73 +1,10 @@
-<!DOCTYPE html>
-<HTML>
-    <HEAD>
-        <link rel="stylesheet" type="text/css" href="indexstyles.css">
-        <link href='https://fonts.googleapis.com/css?family=Encode Sans Expanded' rel='stylesheet'>
-        <link rel="icon" href="SW64_2.png">
-
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="SuperWaffle64's Website">
-        <meta property="og:description" content="Website SuperWaffle64 made bc boredom sucks.">
-        <meta property="og:image" content="SW64_2">
-
-        <meta name="keywords" content="Tetris Effect, Tetris, Splatoon, TF2, Team Fortress 2, TETR.IO, SuperWaffle 64, SuperWaffle64, SuperWaffleYT">
-        <meta name="description" content="SuperWaffle64's website. SuperWaffle64 is a Tetris YouTuber and sometimes codes things.">
-        <meta name="author" content="SuperWaffle64">
-        
-        <title>SuperWaffle64's Webpage</title>
-
-        <!-- Mobile Redirect, not that its much better -->
-
-        <script type="text/javascript">
-            if (screen.width <= 699) {
-                document.location = "mobile.html";
-            }
-        </script>
-    </HEAD>
-    <BODY>
-        <h1 style="font-family:Encode Sans Expanded;" class="title">Welcome to SuperWaffle64's Webpage!</h1>
-
-        <div class="buttons">
-            <button class="youtube" onclick="window.location.href='https://www.youtube.com/@SuperWaffle64';">YouTube</button>
-            <!-- <button class="discordbutton" class="center" onclick="window.location.href='https://discord.gg/NxQnv9Bvsy';">Discord</button> -->
-            <button class="twitter" onclick="window.location.href='https://twitter.com/SuperWaffle64';">Twitter</button>
-        </div>
-
-        <!-- <iframe class="discord" src="https://ptb.discord.com/widget?id=886032570557534258&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
-
-        <p style="font-family:Encode Sans Expanded;" class="text0">Hi! I'm SuperWaffle64. I make YouTube videos. Made this website because I was bored. Here are some of my social links. Feel free to check these out! I'll update this website if I feel like I should add something else.</p>
-        
-        <a class="tetrachannel" href="https://ch.tetr.io/u/superwaffle64">
-            <img alt="Tetra Channel" src="tetrio-mono.svg"
-            width=90" height="90">
-         </a>
-        
-        <a class="sendou" href="https://sendou.ink/u/superwaffle64">
-            <img alt="Sendou.ink" src="sendou.png"
-            width=90" height="90">
-         </a>
-
-         <!-- Latest video embed. Can do more than one video -->
-        <iframe class="latestVideoEmbed" vnum='0' cid="UCesPJJx3ikxrwxD522o7D3Q" width="800" height="440" frameborder="0" allowfullscreen></iframe>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-        var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-        function loadVideo(iframe) {
-            $.getJSON(reqURL + iframe.getAttribute('cid'),
-             function(data) {
-                 var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-                 console.log(videoNumber);
-                 var link = data.items[videoNumber].link;
-                 id = link.substr(link.indexOf("=") + 1);
-                 iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
-                }
-            );
-        }
-        var iframes = document.getElementsByClassName('latestVideoEmbed');
-        for (var i = 0, len = iframes.length; i < len; i++) {
-         loadVideo(iframes[i]);
-        }
-        </script> 
-    </BODY>
-
-</HTML>
+<!doctype html>
+<html>
+    <head>
+        <title>WaffleNet Home</title>
+    </head>
+    <body>
+        <h1>Welcome to WaffleNet!</h1>
+        <p>There's nothing on this page lol</p>
+    </body>
+</html>
